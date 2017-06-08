@@ -1,0 +1,22 @@
+$ {
+
+  var personPromise = new Promise((resolve, reject) => {
+    setTimeout(function() {
+      resolve({
+        name: 'Frank'
+      });
+    }, 1000);
+  });
+
+}
+
+<p>
+  Hello world!
+  <goal-header />
+</p>
+
+<!--> remove this comment to reproduce the error
+<await(person from personPromise)>
+  <div>Hello ${person.name}!</div>
+</await>
+</-->
