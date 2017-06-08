@@ -6,7 +6,7 @@ Prerequisite:
 
 How to reproduce the problem:
 
-  1) remove the comment tags enclosing <await> tag from file src/pages/home/public.marko
+  1) remove the comment tags enclosing \<await\> tag from file src/pages/home/public.marko
   2) webpack
   3) cd target/markoissue728
   4) node ./server.js
@@ -15,7 +15,7 @@ How to reproduce the problem:
 
 
 How to fix the problem:
-  1) comment out <await> tag from file src/pages/home/public.marko
+  1) comment out \<await\> tag from file src/pages/home/public.marko
   2) webpack
   3) cd target/markoissue728
   4) node ./server.js
